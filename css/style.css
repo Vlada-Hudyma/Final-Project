@@ -1,28 +1,14 @@
 body {
-    /*margin: 0;
-    width: 1536px;
-    height: 753px;*/
-
-    
-    /*width: 100%;
-    height: 100%;
-    position: absolute;
     margin: 0;
-    display: flex;
-    justify-content: center;*/
-
     width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .page {
     /*width: auto;
     height: auto;*/
 
-    max-width: 1200px;
     width: 100%;
     margin: 0;
 }
@@ -90,7 +76,7 @@ body {
     position: absolute;
     left: 22%;
     color: #FFFFFF;
-    top: 38%;
+    top: 49%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
@@ -102,37 +88,6 @@ body {
     padding: 0;
 }
 
-
-.radio__one {
-    position: absolute;
-    width: 200px;
-    height: 45px;
-    left: 45%;
-    top: 56%;
-    
-    
-    background: #4985FF;
-    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
-    border-radius: 30px;
-}
-
-
-.three {
-    position: absolute;
-    width: 128px;
-    height: 17px;
-    left: 20%;
-    top: -10%;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
 #slider {
     width: 1330px;
     height: 341px;
@@ -164,9 +119,17 @@ body {
     cursor: pointer;
   }
 
+  .slide-single:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1.5s;
+  }
+
+
 .services {
     position: absolute;
-    width: 1113px;
+    width: 100%;
     height: 550px;
     top: 753px;
 }
@@ -175,7 +138,7 @@ body {
     position: absolute;
     width: 739px;
     height: 88px;
-    left: 30%;
+    left: 23%;
     top: 1%;
 
     font-family: Montserrat;
@@ -192,7 +155,7 @@ body {
     position: absolute;
     width: 835px;
     height: 96px;
-    left: 26%;
+    left: 21%;
     top: 27%;
 
     font-family: Montserrat;
@@ -209,8 +172,8 @@ body {
     position: absolute;
     width: 1113px;
     height: 139px;
-    left: 15%;
-    top: 270px;
+    left: 10%;
+    top: 300px;
     text-align: center;
     display: flex;
 }
@@ -362,40 +325,9 @@ body {
     color: #999999;
 }
 
-
-.allservices {
-    position: absolute;
-    width: 200px;
-    height: 45px;
-    left: 55%;
-    top: 80%;
-    
-    background: #4985FF;
-    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
-    border-radius: 30px;
-}
-
-.services h4  {
-    position: absolute;
-    width: 128px;
-    height: 17px;
-    left: 20%;
-    top: 25%;
-    margin: 0;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
 .project {
     position: absolute;
-    width: 1349px;
+    width: 100%;
     height: 797px;
     top: 1302px;
 
@@ -517,14 +449,14 @@ body {
 
 .workBlue {
     position: absolute;
-    width: 1349px;
+    width: 100%;
     height: 490px;
     background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
 }
 
 .workWhite {
     position: absolute;
-    width: 1349px;
+    width: 100%;
     height: 980px;
     top: 2098px;
 }
@@ -591,60 +523,6 @@ body {
     color: #999999;
 }
 
-.workBlue__content-one a {
-    position: absolute;
-    width: 97px;
-    height: 20px;
-    left: 0;
-    top: 492px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-
-    text-decoration-line: underline;
-
-    color: #4985FF;
-}
-
-.workBlue__content-two a {
-    position: absolute;
-    width: 97px;
-    height: 20px;
-    left: 0px;
-    top: 492px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-
-    text-decoration-line: underline;
-
-    color: #4985FF;
-}
-
-.workBlue__content-three a {
-    position: absolute;
-    width: 97px;
-    height: 20px;
-    left: 0px;
-    top: 492px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-
-    text-decoration-line: underline;
-
-    color: #4985FF;
-}
-
 .allservices__work {
     position: absolute;
     width: 200px;
@@ -675,7 +553,7 @@ body {
 
 .photoProject {
     position: absolute;
-    width: 1349px;
+    width: 100%;
     height: 776px;
     top: 3075px;
     background: #F6F6F8;
@@ -725,45 +603,33 @@ body {
     left: 9%;
 }
 
-
-
-.allservices__photoProject {
+#slider-left {
     position: absolute;
     width: 200px;
     height: 45px;
     left: 45%;
-    top: 75%;
-    background: #4985FF;
+    top: 83%;
+    background-color: #4985FF;
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
-}
-
-.allservices__photoProject h4 {
-    position: absolute;
-    width: 128px;
-    height: 17px;
-    left: 19%;
-    top: -18%;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
-
     color: #FFFFFF;
 }
 
 .video {
     position: absolute;
-    width: 1349px;
+    width: 100%;
     top: 3850px;
     height: 780px;
 }
 .video__background img {
     position: absolute;
-    width: 1349px;
+    width: 100%;
     top: 0px;
 }
 
@@ -923,7 +789,7 @@ body {
 
 .footer {
     position: absolute;
-    width: 1349px;
+    width: 100%;
     height: 413px;
     top: 4629px;
     background: #F6F6F8;
@@ -957,7 +823,14 @@ body {
     height: 310px;
     width: 235px;
 }
+.networks {
+    position: absolute;
+    top: 221px;
+}
 
+.networks a {
+    margin: 0 20px;
+}
 
 
 
@@ -1018,8 +891,8 @@ body {
     position: absolute;
     width: 225px;
     height: 14px;
-    left: 23%;
-    top: 39px;
+    left: 36%;
+    top: 33px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -1033,7 +906,7 @@ body {
     position: absolute;
     width: 225px;
     height: 14px;
-    left: 49%;
+    left: 75%;
     top: 39px;
     font-family: Montserrat;
     font-style: normal;
@@ -1057,6 +930,11 @@ body {
     line-height: 49px;
     list-style-type: none;
     color: #999999;
+}
+
+.fa {
+    color: #999999;
+    font-size: 24px;
 }
 
 .footer p {
