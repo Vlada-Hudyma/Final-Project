@@ -272,3 +272,71 @@ a {
     display: flex;
     justify-content: center;
 }
+
+
+.project {
+    position: relative;
+    display: flex;
+    padding: 50px 0 60px;
+    background-color: #fff;
+}
+
+.project-content {
+    width: 64%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title__main h4 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+    margin: 0;
+}
+
+.title__main {
+    width: 80%;
+    margin: auto;
+}
+
+.title__second p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+
+.services__items {
+    background-color: lightcyan;
+}
+
+.services__item-context h2 {
+    font-size: 18px;
+    color: #000000;
+    text-align:  center;
+}
+
+.services__item-context p {
+    font-size: 14px;
+    color: #999999;
+    text-align:  center;
+}
+
+.services__items-wrap {
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+
+.services__item-context {
+    padding: 0 10px;
+    margin: 0;
+}
+
+.services__item {
+    display: flex;
+}
