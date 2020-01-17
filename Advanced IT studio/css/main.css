@@ -366,6 +366,7 @@ a {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 30px;
 }
 
 .topPart {
@@ -432,7 +433,7 @@ a {
 .work__wrap {
     width: 100%;
     height: 100%;
-    background: linear-gradient(#504DC2, #C4C4C4);
+    background: linear-gradient(#504DC2, rgb(255, 254, 254));
 }
 
 .work__content {
@@ -454,8 +455,205 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 40px;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 36px;
+    margin-bottom: 52px;
 }
 
 .mainContent__item {
     width: 30%;
 }
+
+.mainContent__item h3 {
+    font-size: 18px;
+    color: #4985FF;
+}
+
+.mainContent__item p {
+    font-size: 16px;
+    color: #999999;
+}
+
+.heading h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+    width: 40%;
+    margin: 0;
+}
+
+.key {
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    height: 30%;
+    width: 143px;
+    text-align: center;
+}
+
+.key p {
+    color: #FFFFFF;
+    margin: 9px;
+    font-size: 16px;
+}
+
+.example {
+    display: flex;
+    width: 100%;
+    background:#F6F6F8;
+}
+
+.example__wrap {
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.example__content-title {
+    width: 68%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.example__content-title h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.example__content-title p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+
+.example__content-gallery {
+    overflow: hidden;
+    display: block;
+    padding-bottom: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+#slider {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1.5s;
+}
+
+.slide-single {
+    padding-right: 36px;
+}
+
+.example__content-button {
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+#slider-left {
+    width: 173px;
+    height: 40px;
+    background-color: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.video {
+    display: flex;
+    width: 100%;
+    background:#F6F6F8;
+    height: 113vh;
+}
+
+.video__wrap {
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/video.png);
+    height: 50vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video__content {
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.video__content-title {
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.video__content-title h2 {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.video__content-title p {
+    font-size: 20px;
+}
+
+.video__content-mailing {
+    text-align: center;
+}
+
+.video__content-mailing h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #000000;
+}
+
+.video__content-mailing p {
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #999999;
+}
+
+.video__content-mailing h5 {
+    font-family: Montserrat;
+    font-size: 13px;
+    color: #999999;
+}
+
+.video__content-mailing form {
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    width: 463px;
+    height: 45px;
+    margin: auto;
+}
+
+#asd_subscribe_submit {
+    
+    width: 190px;
+    height: 45px;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0px 30px 30px 0px;
+}
+
+#enter_email  {
+    
+    width: 267px;
+    height: 31px;
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 21px;
+    color: #999999;
+    border: none;
+    text-align: center;
+    border-radius: 50%;
+}
+
